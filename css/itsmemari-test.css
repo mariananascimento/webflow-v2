@@ -206,6 +206,10 @@ figcaption {
   position: static;
 }
 
+.container.cover-container.mobile-cover-container {
+  justify-content: flex-end;
+}
+
 .styleguide-content-wrap {
   text-align: center;
 }
@@ -1424,6 +1428,11 @@ figcaption {
   font-family: Lato, sans-serif;
 }
 
+.intro-wrap.mobile-intro-wrap {
+  margin-top: 0;
+  padding-bottom: 5em;
+}
+
 .list-item {
   color: rgba(26, 27, 31, .6);
   font-size: 18px;
@@ -1752,7 +1761,7 @@ figcaption {
   }
 
   .intro-wrap.mobile-intro-wrap {
-    margin-top: 190px;
+    margin-top: 0;
   }
 
   .paragraph-light2.space-below {
@@ -1985,7 +1994,7 @@ figcaption {
   }
 
   .intro-wrap.mobile-intro-wrap {
-    margin-top: 135px;
+    margin-top: 0;
   }
 
   .paragraph-light2, .paragraph-light2.space-below {
@@ -2289,8 +2298,8 @@ figcaption {
   }
 
   .intro-wrap.mobile-intro-wrap {
-    margin-top: 120px;
-    padding-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1em;
     font-size: 30px;
     line-height: 28px;
   }
